@@ -11,6 +11,8 @@ li.active {
 .btn-primary {
     background-color: #655485;
     border-color: #655485;
+    --bs-btn-bg: #655485;
+    --bs-btn-border-color: #655485;
 }
 
 /* News and Trophies */
@@ -56,10 +58,11 @@ li.active {
 .mission-statement {
     font-size: 1.5rem; /* Larger font size */
     font-weight: bold;
+    
     margin-bottom: 20px;
-    border-left: 5px solid #007bff; /* Blue left border for emphasis */
+    border-left: 5px solid #655485; /* Purple left border for emphasis */
     padding-left: 20px; /* Space between border and text */
-    background-color: #f8f9fa; /* Light background to differentiate */
+    background-color: #4f545f; /* Light background to differentiate */
     padding: 15px;
 }
 .content {
