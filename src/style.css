@@ -1,5 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+.nav-link {
+    --bs-nav-link-font-size: 1.2rem;
+}
+
 li.active {
     --bs-nav-link-color: #a18acc;
+}
+
+.btn-primary {
+    background-color: #655485;
+    border-color: #655485;
+}
+
+/* News and Trophies */
+
+.accordion-button:not(.collapsed) {
+    background-color: #e9ecef;
+}
+.list-group-item {
+    font-family: 'Arial', sans-serif; 
+    font-size: 14px; 
+}
+.date {
+    float: right;
+    font-style: italic; 
+    color: #6c757d; 
+}
+.list-group-item::after {
+    content: attr(data-date);
+    float: right;
+    font-style: italic;
+    color: #6c757d;
+    font-size: 12px; 
+}
+
+/* Sponsors */
+
+.sponsor-logo {
+    max-width: 100%;
+    height: auto;
+}
+.sponsor-item {
+    text-align: center;
+    padding: 20px;
+}
+.sponsor-name {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* About */ 
+
+.mission-statement {
+    font-size: 1.5rem; /* Larger font size */
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-left: 5px solid #007bff; /* Blue left border for emphasis */
+    padding-left: 20px; /* Space between border and text */
+    background-color: #f8f9fa; /* Light background to differentiate */
+    padding: 15px;
+}
+.content {
+    font-size: 1rem; /* Default font size for content */
+    line-height: 1.6;
 }
