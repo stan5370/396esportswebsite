@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.navbar a {
+    font-family: "Rubik", Courier, monospace;
+    font-weight: 600;
+}
+
+.active {
+    font-family: Courier, monospace;
+    font-weight: 600;
+    --bs-nav-link-color: #b79ce9;
+}
