@@ -69,3 +69,37 @@ li.active {
     font-size: 1rem; /* Default font size for content */
     line-height: 1.6;
 }
+
+.team-photo {
+    max-width: 100%;
+    height: auto;
+}
+.roster-section {
+    margin-top: 20px;
+}
+.roster-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.leadership-section {
+    margin-top: 40px; /* More space to separate from rosters */
+    padding-top: 20px; /* Padding for visual separation */
+}
+.leadership-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.leadership-list .list-group-item {
+    display: flex;
+    align-items: center; /* Center vertically */
+}
+.position {
+    font-weight: bold;
+    width: 200px; /* Fixed width for position labels to align names */
+}
+.name {
+    flex-grow: 1; /* Name takes up remaining space */
+}
