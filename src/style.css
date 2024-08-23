@@ -5,11 +5,11 @@
 }
 
 li.active {
-    --bs-nav-link-color: #a18acc;
+    --bs-nav-link-color: #ac80ff;
 }
 
 .btn-primary {
-    background-color: #655485;
+    background-color: #5b369e;
     border-color: #655485;
     --bs-btn-bg: #655485;
     --bs-btn-border-color: #655485;
