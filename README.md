@@ -10,7 +10,9 @@ To host on Vercel, all we did was link the Github repository that contained all 
 This allowed us to have free hosting at the vercel.app domain:
 https://396esportswebsite.vercel.app/
 
-Demo video: https://youtube.com/live/VEHyOuCrhEI?feature=share
+### Demo video
+
+Watch here: https://youtube.com/live/VEHyOuCrhEI?feature=share
 
 Changes since video creation:
   - added fake sponsors for demonstration purposes (no interactions)
@@ -21,3 +23,7 @@ Changes since video creation:
 ### Self-hosting
 
 If you would like to host this site on your own, simply use Github pages or some other basic webserver (Node.js, etc.) to host all of the contents in the ./src folder.
+
+### Remaining Console Errors
+
+We are aware that there are a few console errors remaining on specifically the home/index page - these are not impactful for visitors, and just come from the embeds complaining about various things. We couldn't find a good way to make them happy, but since it doesn't affect site visitors at all, we figured it was fine :D
